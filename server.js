@@ -18,7 +18,7 @@ app.get("/sendMail", async (req, res) => {
           from: "<pessoateste@email.com>",
           to: "teste@email.com",
           subject: "teste com Nodemailer",
-          text: "Simplismente sou foda!!",
+          text: "textoo!!",
           html: "<p style=color: green> Diogo é muito foda </p>"
 
       });
